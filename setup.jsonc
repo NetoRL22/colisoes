@@ -1,0 +1,40 @@
+{
+    "nBolas":10, //numero de bolas desejadas na simulacao
+
+    "3d":false, //booleano que é verdadeiro se simulacao sera em 3 dimensoes
+
+    "width":1400, //largura da simulacao
+    "height":700, //altura da simulação
+     "length":700, //profundidade da simulacao, =0 se 2d
+
+    //Posicao inicial das bolas
+    "initPos":"random", //programa escolhera aleatoriamente
+    //"initPos":[[200,200,50],[400,200,50],[600,600,50]], //voce define posicao inicial
+    
+    //velocidade inicial das bolas
+    "initV":["random",[150,150,150],10], //programa escolhe aleatoriamente, velocidade base,quanto pode variar a v_base em pixeis/s
+    //"initV":[[30,0,0],[-20,0,0],[-10,0,0]], //voce define velocidade inicial
+    //menos de 30pixeis/segundo é bem lento
+
+    //massas das bolas
+    // "massas":[1,2,1,1,2,5,0.5], //se massas diferentes escolhidas
+     "massas":["random",7,100], // se aleatorio, base e quanto pode variar
+    
+    //raios das bolas
+    // "raios":[5,8,10,6,9,7], //se massas diferentes escolhidas
+     "raios":["random",80,30] ,// se aleatorio, base e quanto pode variar
+
+    //cores das bolas
+    // "cores":[[255,0,0],[0,255,0],[0,0,255]] //se massas diferentes escolhidas
+     "cores":["random",[127,127,127],100] ,// se aleatorio, base , variacao
+
+    //fracao de tempo que se decorrerá por tick, recomendasse que seja um decimal = 1/N para N natural
+    "dt":"default", //se "default" -> 1/(ticks/segundo) 
+    //"dt":1,
+
+    "g":50,//gravidade atuando sobre todas as bolas 
+
+    "cr":1, //coeficiente de reestituicao
+
+    "camDist":1000
+}

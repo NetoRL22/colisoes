@@ -49,9 +49,10 @@ def soma(a,b):
     return v
 
 def produto_escalar(l,v):
+    r=[]
     for i in range(len(v)):
-        v[i]=v[i]*l
-    return v
+        r.append(v[i]*l)
+    return r
 
 def produto_interno(a,b):
     tam_p=len(a)
