@@ -10,5 +10,6 @@ Curso: Engenharia de Computação - UTFPR
 no cmd/terminal da pasta onde esses arquivos se encontram
 * outros arquivos são o código-fonte do programa, loop é o pai, ga é um arquivo meu que pode ser encontrado em um repositório externo e render e fisica arquivos com a lógica mas pesada do programa
 
-**[Simulador de Colisões | FIS1 - UTFPR ](https://youtu.be/BV4_YcF5dy0)**
+**[Simulador de Colisões | FIS1 - UTFPR ](https://youtu.be/BV4_YcF5dy0)**  
+
 [![Video do youtube](https://img.youtube.com/vi/BV4_YcF5dy0/0.jpg)](https://youtu.be/BV4_YcF5dy0)
